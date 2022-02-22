@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/happyfeliz.github.io/blog-poesia/static/css/main.38e39bb7.css",
+    "main.js": "/happyfeliz.github.io/blog-poesia/static/js/main.a32f4b3b.js",
+    "static/js/787.f587e8d5.chunk.js": "/happyfeliz.github.io/blog-poesia/static/js/787.f587e8d5.chunk.js",
+    "index.html": "/happyfeliz.github.io/blog-poesia/index.html",
+    "main.38e39bb7.css.map": "/happyfeliz.github.io/blog-poesia/static/css/main.38e39bb7.css.map",
+    "main.a32f4b3b.js.map": "/happyfeliz.github.io/blog-poesia/static/js/main.a32f4b3b.js.map",
+    "787.f587e8d5.chunk.js.map": "/happyfeliz.github.io/blog-poesia/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38e39bb7.css",
+    "static/js/main.a32f4b3b.js"
+  ]
+}
