@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+import React, {useState} from "react"
 import './App.css';
-
+import Surprise from "./Principal_Nav";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [showSurprise, setShowSurprise] = useState(false)
+  return(
+    <div>
+      <button onClick={(ev)=> setShowSurprise(!showSurprise)}>
+        Menu
+      </button>
+      {showSurprise && <Surprise />}
+    </div>)
 }
 
 export default App;
